@@ -1,8 +1,13 @@
-import React from 'react'
+// components
+import Navbar from './NavBar.jsx';
+import CartContainer from './CartConteiner.jsx';
 
 export default function App() {
   return (
-    <div>App</div>
+    <main>
+      <Navbar />
+      <CartContainer />
+    </main>
   )
 }
 
